@@ -1,0 +1,4 @@
+<launch>
+	<node name="camera_node" pkg="robot_6d_control" type="camera_node.py" respawn="false" output="screen" />
+	<node name="planning_node" pkg="robot_6d_control" type="planning_node.py" respawn="false" output="screen" />
+</launch>
